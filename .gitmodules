@@ -1,0 +1,3 @@
+[submodule "inst/generics"]
+	path = inst/generics
+	url = https://github.com/r-lib/generics.git

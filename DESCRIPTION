@@ -1,0 +1,21 @@
+Package: pkgdepends.test.001
+Title: Test Package for Git Remote with Git Submodule Required for Build
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+      person(
+        "First", 
+        "Last", , 
+        "first.last@example.com", 
+        role = c("aut", "cre"),
+        comment = c(ORCID = "YOUR-ORCID-ID")
+      )
+    )
+Description: 
+    Test that git remotes with submodules either succesfully recurse through
+    submodules during fetch, or alternatively fail with informative error 
+    message.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
